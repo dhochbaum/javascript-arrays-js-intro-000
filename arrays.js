@@ -10,6 +10,6 @@ function addElementToEndOfArray(a, e) {
   return [...a, e]
 }
 function destructivelyAddElementToEndOfArray(a, e) {
-  a.psuh(e)
+  a.push(e)
   return a
 }
